@@ -12,7 +12,6 @@ task("accounts", "Prints the list of accounts", async () => {
         console.log(await account.getAddress());
     }
 });
-/*
 module.exports = {
     defaultNetwork: "buidlerevm",
     networks: {
@@ -21,6 +20,7 @@ module.exports = {
             blockGasLimit: 12000000,
             allowUnlimitedContractSize: true
         },
+        /*
         kovan: {
             url:
                 "https://eth-kovan.alchemyapi.io/v2/PMRs9b7XcmbELUeDN8zF_ZbKY5W4ktW2",
@@ -42,6 +42,7 @@ module.exports = {
                 process.env.PRIVATE_KEY
             ]
         }
+        */
     },
     namedAccounts: {
         deployer: 0,
@@ -56,4 +57,3 @@ module.exports = {
         }
     }
 };
-*/
