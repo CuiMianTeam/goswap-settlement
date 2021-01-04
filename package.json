@@ -1,5 +1,5 @@
 {
-  "name": "@sushiswap/settlement",
+  "name": "goswap-settlement",
   "version": "0.8.0",
   "license": "MIT",
   "description": "Contracts that support limit orders feature for SushiSwap",
@@ -23,7 +23,7 @@
     "@nomiclabs/buidler": "^1.4.3",
     "@nomiclabs/buidler-ethers": "^2.0.0",
     "@nomiclabs/buidler-waffle": "^2.0.0",
-    "@sushiswap/sdk": "^3.0.0",
+    "goswap-sdk": "^3.0.0",
     "buidler-deploy": "^0.5.18",
     "buidler-gas-reporter": "^0.1.3",
     "buidler-spdx-license-identifier": "^1.0.3",
@@ -40,6 +40,6 @@
     "solhint-plugin-prettier": "^0.0.4"
   },
   "dependencies": {
-    "@sushiswap/core": "^1.2.1"
+    "goswap-core": "^1.0.0"
   }
 }
